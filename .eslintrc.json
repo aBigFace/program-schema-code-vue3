@@ -21,8 +21,8 @@
     "plugin:@typescript-eslint/recommended",
     "plugin:prettier/recommended" //解决eslint和prettier冲突
   ],
-  // 支持ts的最新语法
   "parser": "vue-eslint-parser",
+  // 支持ts的最新语法
   "parserOptions": {
     "ecmaVersion": 13,
     "parser": "@typescript-eslint/parser",
