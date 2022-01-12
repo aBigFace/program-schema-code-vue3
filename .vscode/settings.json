@@ -7,4 +7,7 @@
     "editor.formatOnSave": true,
     // 默认格式化工具选择prettier
     "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[shellscript]": {
+        "editor.defaultFormatter": "foxundermoon.shell-format"
+    },
 }

@@ -1,3 +1,9 @@
+/**
+作者：羽墨
+链接：https://juejin.cn/post/7043702363156119565
+来源：稀土掘金
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+*/
 {
   // 设置我们的运行环境为浏览器 + es2021 + node ,否则eslint在遇到 Promise，window等全局对象时会报错
   "env": {
@@ -27,5 +33,10 @@
     "vue",
     "@typescript-eslint"
   ],
-  "rules": {}
+  "rules": {
+    // 默认为warn类型，将该类型转为error类型
+    "@typescript-eslint/no-unused-vars": [
+      "error"
+    ]
+  }
 }
