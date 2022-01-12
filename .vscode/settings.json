@@ -1,13 +1,16 @@
 {
-    //eslint便会智能地为你修复一些代码错误了
-    "editor.codeActionsOnSave": {
-        "source.fixAll": true,
-    },
-    // 开启自动保存
-    "editor.formatOnSave": true,
-    // 默认格式化工具选择prettier
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "[shellscript]": {
-        "editor.defaultFormatter": "foxundermoon.shell-format"
-    },
+  //eslint便会智能地为你修复一些代码错误了
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  // 开启自动保存
+  "editor.formatOnSave": true,
+  // 默认格式化工具选择prettier
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[shellscript]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "[ignore]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  }
 }
