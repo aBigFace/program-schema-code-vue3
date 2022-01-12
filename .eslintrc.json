@@ -34,6 +34,15 @@
     "@typescript-eslint"
   ],
   "rules": {
+    // "useTabs": true,
+    // "indent": [8, "tab"],
+    "prettier/prettier": [
+      "error",
+      {
+        "useTabs": true,
+        "tabWidth": 2
+      }
+    ],
     // 默认为warn类型，将该类型转为error类型
     "@typescript-eslint/no-unused-vars": [
       "error"

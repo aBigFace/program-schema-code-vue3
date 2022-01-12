@@ -12,5 +12,6 @@
   },
   "[ignore]": {
     "editor.defaultFormatter": "foxundermoon.shell-format"
-  }
+  },
+  "prettier.useTabs": true
 }
